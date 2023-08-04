@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px 40px;
+  background-color: rgb(253, 246, 246);
+  display: flex;
+  justify-content: center;
+  margin: 0px; 
+          
+}
+
+h3{
+  position: center;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  color: #222929;
+}
+h3 span{
+  color: #0d7eb3;
+
+}
+.container {
+  border-radius: 40px;
+  background-color: #e6f6f6;
+  width: 100%;
+  padding:1rem;
+}
+.container input{
+  background-color: rgb(237, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+}
+
+       
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid hsl(0, 31%, 6%);
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit]:hover {
+  background-color: #ebf70e;
+  color: rgb(160, 28, 28);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #1bcf0e;
+}
+  
+  
